@@ -1,0 +1,124 @@
+@import "setup";
+
+$main-color: #B1D8E5;
+$heading-font: "bebas-neue",sans-serif;
+$par-font: "museo",serif;
+
+//OVERALL LAYOUT STYLES
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	font-size: 62.5%;
+	background: $main-color;
+}
+.wrapper {
+	max-width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 6%;
+}
+main {
+	width: 100%;
+	height: 93%;
+	background-repeat: no-repeat;
+	background-size: 300px;
+	// background-width: 100%;
+	background-position: 85% 50%;
+	display: flex;
+	flex-direction: row;
+	@media (max-width: 700px) {
+		background-position: 97% 50%;
+	}
+	@media(max-width: 500px) {
+		background-position: 120% 50%;
+	}
+}
+section {
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	@media (max-width: 700px) {
+		justify-content: flex-start;
+		width: 50%;
+	}
+}
+.content {
+	@media (max-width: 700px) {
+		height: 100%;
+	}
+}
+
+//OVERALL FONT STYLES
+h1 {
+	margin: 0;
+	font-family: $heading-font;
+	color: black;
+	font-size: 2.4rem;
+	text-transform:uppercase;
+	padding-left: 5%;
+}
+p {
+	font-family: $par-font;
+	margin: 0;
+	color: white;
+}
+h3 {
+	font-family: $heading-font;
+	margin: 0;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+section {
+	h1, p, h3 {
+		width: 100%;
+		margin: auto;
+		padding-left: 5%;
+		// background: rgba(34, 6, 6, 0.1);
+	}
+	h1 {
+		font-size: 6rem;
+		// padding: 5%;
+		@media (max-width: 700px) {
+			margin-top: 10%;
+			margin-bottom: 5%;
+			padding: 0;
+			padding-left: 10%;
+		}
+	}
+	p {
+		font-size: 2.4rem;
+		@media (max-width: 700px) {
+			padding-left: 10%;
+		}
+	}
+	h3 {
+		font-size: 2.2rem;
+		padding: 5%;
+		letter-spacing: 0.05rem;
+		@media (max-width: 700px) {
+			// align-self: flex-end;
+			padding-left: 10%;
+			margin-top: 30%;
+		}
+	}
+}
+
+//FONT STYLE OVERRIDES
+.location {
+		font-style: italic;
+}
+.location, .drink {
+		text-decoration: underline;	
+}
+
+
