@@ -1,5 +1,5 @@
 var src = {srcSCSS: './styles/**/*.scss', srcJS: './scripts/**/*.js'}
-var dest = {destCSS: './public/styles/**/*.css', destJS: './public/scripts/**/*.js'}
+var dest = {destCSS: './public/styles/', destJS: './public/scripts/'}
 
 var gulp = require('gulp'),
 		browserSync = require('browser-sync'),

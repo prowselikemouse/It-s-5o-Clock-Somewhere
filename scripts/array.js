@@ -23,7 +23,7 @@
 	["-4","Bridgetown, Barbados!","Bridgetown","Rum","Cheers!","images/rhum-01.svg"],
 	["-4","Hamilton, Bermuda!","Hamilton","Dark & Stormy","Cheers!","images/sauv.blanc.svg"],
 ],
-["-3","Buenos Aires, Argentina!","Buenos Aires","Malbec","¡Salud!","images/p.syrah-01.svg"],
+["-3","Buenos Aires, Argentina!","Buenos Aires","Malbec","¡Salud!","images/petit_syrah.svg"],
 ["-2","Fernando do Noronha, Brazil!","Fernando do Noronha","Cachaça","Saúde!", "images/cachaca-01.svg"],
 ["-1","Azores, Portugal!","Azores","Vinho Liquoroso","Saúde!","images/vinho.lic-01.svg"],
 [
@@ -44,7 +44,7 @@
 	["2","Mykonos, Greece!","Mykonos","Ouzo","Στην υγειά σου!","images/ouzo-01.svg"],
 	["2","Kigali, Rwanda!","Kigali","Urwagwa (Banana Beer)","Kubuzima bwacu!","images/urwaga-01.svg"]
 ],
-["3","Kampala, Uganda!","Kampala","Waragi","Maisha marefu!","images/sauv.blanc.svg"],
+["3","Kampala, Uganda!","Kampala","Waragi","Maisha marefu!","images/waragi.svg"],
 [
 	["4","Yereven, Armenia!","Yerevan","Oghi","Genatzt!","images/oghi-01.svg"],
 	["4","Tbilisi, Georgia!","Tbilisi","Chacha","Gagimarjot!","images/ice.wine-01.svg"]
