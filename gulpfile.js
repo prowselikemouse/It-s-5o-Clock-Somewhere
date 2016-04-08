@@ -28,7 +28,7 @@ gulp.task('styles', function() {
 		.pipe(sourcemaps.init())
 		.pipe(sass())
 		.pipe(minifyCSS())
-		.pipe(concat('style.css'))
+		.pipe(concat('main.min.css'))
 		.pipe(autoprefixer('last 5 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
 		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest(dest.destCSS))
@@ -43,7 +43,7 @@ gulp.task('scripts', function () {
 		.pipe(concat('main.min.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest(dest.destJS))
-		.pipe(reload({stream:true}));
+		.pipe(reload({ stream: true }));
 });
 
 gulp.task('images', function () {
@@ -54,9 +54,9 @@ gulp.task('images', function () {
 
 // configure which files to watch and what tasks to use on file changes
 gulp.task('watch', function() {
-	gulp.watch('sass/**/*.scss', ['styles']);
-	gulp.watch('./js/**/*.js', ['scripts']);
-	gulp.watch('./**/*.php', reload);
+	gulp.watch('./styles/**/*.scss', ['styles']);
+	gulp.watch('./scripts/**/*.js', ['scripts']);
+
 });
 
 gulp.task('default', ['styles', 'scripts', 'images', 'bs', 'watch']);

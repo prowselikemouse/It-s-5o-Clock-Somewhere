@@ -11,8 +11,6 @@ app.init = function() {
 	app.another_button();
 }
 
-app.key = 'cfec60ec11e2efaa7f513383b9940b85';
-app.id = 'ac5ae063';
 
 //GRAB DATE, EXTRACT HOURS AND CALCULATE TIME ZONE OFFSET
 app.getlocations = function() {
@@ -41,12 +39,14 @@ app.another_button = function() {
 	$('.cheers').html(app.displayArray[4]);
 	$('.location').html(app.displayArray[1]);
 	$('.drink').html(app.displayArray[3]);
-	$('main').css('background-image','url(' + app.displayArray[5] + ')');
+	$('.drinklink').attr('href', "http://www.yummly.com/recipes?q=" + app.displayArray[3] + '&allowedCourse=course%5Ecourse-Beverages&allowedCourse=course%5Ecourse-Cocktails');
+	$('.image').attr('src', app.displayArray[5]);
+	$('.image').attr('alt', + app.displayArray[3]);
 };
 
 $(document).ready(function() {
 	app.init();
-	$('.another_button').on('click', function() {
+	$('.another-button').on('click', function() {
 		app.another_button();
 	})
 });
