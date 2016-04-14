@@ -15,8 +15,10 @@ var gulp = require('gulp'),
 		uglify = require('gulp-uglify');
 
 gulp.task('bs', function() {
-	browserSync.init({
-		proxy: 'http://localhost:8888'
+	browserSync({
+		server: {
+			baseDir: './'
+		}
 	});
 });
 

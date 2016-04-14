@@ -20,7 +20,7 @@ app.getlocations = function() {
 		//CALCULATE NEAREST TIME ZONE WITH 5 O'CLOCK
 		var magicTime = 17;
 		var timeDifference = magicTime - userHour;
-		var inverseOffset = 12 + userTimeZone;
+		var inverseOffset = 11 + userTimeZone;
 		app.whereIts5pm = timeDifference + inverseOffset;
 		app.outputArray = allCountries[app.whereIts5pm];
 	};
@@ -50,4 +50,7 @@ $(document).ready(function() {
 		app.another_button();
 	})
 });
+
+//TWITTER SHARE BUTTON
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 

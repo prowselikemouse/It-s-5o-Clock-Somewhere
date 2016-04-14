@@ -2,6 +2,7 @@
 
 $main-color: #05b0cc;
 $soft-color: #b1d8e5;
+$light-black: #0f0f0f;
 $heading-font: "bebas-neue",sans-serif;
 $par-font: "museo",serif;
 
@@ -31,6 +32,7 @@ body {
 	@media (max-width:865px) {
 		width: 90%;
 		flex-direction: column;
+		height: auto;
 	}
 }
 header {
@@ -61,6 +63,7 @@ header {
 	margin-bottom: 2rem;
 	@media (max-width: 865px) {
 		margin-bottom: 0;
+		margin: 0 1rem;
 	}
 }
 .share-button {
@@ -85,6 +88,7 @@ main {
 	@media (max-width:865px) {
 		width: 100%;
 		margin-left: 0;
+		height: auto;
 	}
 }
 section {
@@ -96,6 +100,9 @@ section {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin: 0 auto;
+		margin-bottom: 8rem;
+		width: 95%;
 	}
 }
 .results {
@@ -112,8 +119,8 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	position: relative;
-	bottom: 0;
+	// position: relative;
+	// bottom: 0;
 	@media (max-width: 865px) {
 		width: 100%;
 	}
@@ -126,6 +133,9 @@ section {
 	line-height: 14rem;
 	color: $soft-color;
 	text-transform:uppercase;
+	@media (max-width: 865px) {
+		font-size: 12rem;
+	}
 }
 .where {
 	margin: 2rem 0;
@@ -136,15 +146,22 @@ section {
 		margin: 0;
 		line-height: 4.2rem;
 	}	
+	@media (max-width: 865px) {
+		margin: 0;
+		font-size: 3.6rem;
+	}
 }
 .what-drink {
 	margin: 2rem 0 0;
 	font-family: $heading-font;
 	font-size: 4rem;
-	color: black;
+	color: $light-black;
 	text-transform: uppercase;
 	h3 {
 		margin: 0;
+	}
+	@media (max-width: 865px) {
+		font-size: 3rem;
 	}
 }
 .location {
@@ -173,8 +190,8 @@ section {
 }
 .image-box {
 	width: 40%;
-	position: relative;
-	bottom: 0;
+	// position: relative;
+	// bottom: 0;
 	@media (max-width: 865px) {
 		width: 100%;
 	}
