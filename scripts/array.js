@@ -105,7 +105,7 @@ var allCountries = [
 	["3","Kampala, Uganda","Kampala","Waragi","Maisha Marefu!","images/waragi.svg"],
 	["3","St. Petersburg, Russia","St. Petersburg","Vodka","Ура!","images/vodka.svg"],
 	["3","Mauritius","Mauritius","Ti Rhum","Santé!","images/ti_rhum.svg"],
-	["3","Minsk, Belarus","Minsk","Krambambula","Yра!","images/krambambula.svg"],
+	["3","Minsk, Belarus","Minsk","Krambambula","Ура!","images/krambambula.svg"],
 	["3","Tehran, Iran","Tehran","Aragh","Salâmati!","images/aragh.svg"]
 ],
 [
@@ -120,7 +120,7 @@ var allCountries = [
 
 ],
 [
-	["6","Almaty, Kazakhstan","Almaty","Kumis","Ура!","images/kumis.svg"],
+	["6","Almaty, Kazakhstan","Almaty","Kumis","Уpa!","images/kumis.svg"],
 	["6","Siberia","Siberia","Vodka","Ура!","images/vodka.svg"],
 	["6","A plane flying over the Indian Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_white_wine.svg"],
 	["6","A plane flying over the Indian Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],

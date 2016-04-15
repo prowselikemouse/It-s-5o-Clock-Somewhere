@@ -41,7 +41,8 @@ app.another_button = function() {
 	$('.drink').html(app.displayArray[3]);
 	$('.drinklink').attr('href', "http://www.yummly.com/recipes?q=" + app.displayArray[3] + '&allowedCourse=course%5Ecourse-Beverages&allowedCourse=course%5Ecourse-Cocktails');
 	$('.image').attr('src', app.displayArray[5]);
-	$('.image').attr('alt', + app.displayArray[3]);
+	$('.image').attr('alt', app.displayArray[3]);
+	console.log(app.displayArray[3]);
 };
 
 $(document).ready(function() {

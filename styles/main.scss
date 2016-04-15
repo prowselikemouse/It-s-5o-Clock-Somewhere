@@ -225,6 +225,10 @@ section {
 		font-size: 10rem;
 		line-height: 9.6rem;
 	}
+	@media (max-width: 320px) {
+		font-size: 8rem;
+		line-height: 7.9rem;
+	}
 }
 .where {
 	margin: 2rem 0;
@@ -281,8 +285,11 @@ section {
 		font-size: 2rem;
 	}
 	@media (max-width: 435px) {
-		font-size: 2.4rem;
+		font-size: 2.8rem;
 		margin: 1rem 0;
+	}
+	@media (max-width: 320px) {
+		font-size: 2.4rem;
 	}
 }
 .location {
