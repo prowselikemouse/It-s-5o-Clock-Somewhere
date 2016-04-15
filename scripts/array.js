@@ -7,16 +7,16 @@ var allCountries = [
 	["-11","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_white_wine.svg"],
 	["-11","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],
 	["-11","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_beer.svg"],
-	["-11","Apia, Samoa","Apia","Kava","Manuia!","images/kava.svg"]
+	["-11","Samoa","Samoa","Kava","Manuia!","images/kava.svg"]
 ],
 [	
-	["-10","Honolulu, Hawaii","Honolulu","Okolehao","Å'kålè ma'luna","images/okolehao.svg"],
+	["-10","Honolulu, Hawaii","Honolulu","Okolehao","Å'kålè ma'luna!","images/okolehao.svg"],
 	["-10","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_white_wine.svg"],
 	["-10","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],
 	["-10","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_beer.svg"]
 ],
 [	
-	["-9","Anchorage, Alaska","Anchorage","Lager","Qaganaazax!","images/alaska_beer.svg"],
+	["-9","Anchorage, Alaska","Anchorage","Lager","Cheers!","images/alaska_beer.svg"],
 	["-9","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_white_wine.svg"],
 	["-9","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],
 	["-9","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_beer.svg"]
@@ -35,14 +35,14 @@ var allCountries = [
 	["-7","Denver, Colorado","Denver","Lager","Cheers!", "images/colo_beer.svg"]
 ],
 [
-	["-6","Louisville, Kentucky","Louisville","Bourbon Whisky","Cheers!","images/bourbon.svg"],
-	["-6","San Salvador, El Salvador","San Salvador","Tíck Táck","¡Salud!","images/tik_tak.svg"],
-	["-6","Jaco, Costa Rica","Jaco","Guaro","¡Salud!","images/guaro.svg"],
+	["-6","Louisville, Kentucky","Louisville","Bourbon","Cheers!","images/bourbon.svg"],
+	["-6","San Salvador, El Salvador","San Salvador","Tíc Tác","¡Salud!","images/tik_tak.svg"],
+	["-6","Jaco, Costa Rica","Jaco","Guaro","¡Pura Vida!","images/guaro.svg"],
 	["-6","Acapulco, Mexico","Acapulco","Margarita","¡Salud!","images/margarita.svg"]
 ],
 [
 	["-5","Havana, Cuba","Havana","Mojito","¡Salud!","images/mojito.svg"],
-	["-5","Lima, Peru","Lima","Pisco","¡Khali kaq kachun!","images/pisco.svg"],
+	["-5","Lima, Peru","Lima","Pisco","¡Prosit!","images/pisco.svg"],
  	["-5","Bocas del Toro, Panama","Bocas del Toro", "Seco Herrano","¡Salud!", "images/seco_herrero.svg"],
  	["-5","Montréal, Quebec","Montréal","Caesar","Santé!","images/caesar.svg"]
 ],
@@ -53,18 +53,19 @@ var allCountries = [
 ],
 [
 	["-3","Buenos Aires, Argentina","Buenos Aires","Malbec","¡Salud!","images/malbec.svg"],
-	["-3","Montevideo, Uruguay","Montevideo","Malbec","¡Salud!","images/grappamiel.svg"],
+	["-3","Montevideo, Uruguay","Montevideo","Grappamiel","¡Salud!","images/grappamiel.svg"],
 	["-3","Newfoundland, Canada","Newfoundland","Screech Rum","Cheers!","images/screech.svg"],
 	["-3","Rio de Jainero, Brazil","Rio de Jainero","Caipirinha","Saúde!","images/caipirinha.svg"]
+
 ],
 [
-	["-2","Fernando do Noronha, Brazil","Fernando do Noronha","Cachaça","Tim Tim!", "images/cachaca.svg"],
+	["-2","Fernando de Noronha, Brazil","Fernando de Noronha","Cachaça","Tim Tim!", "images/cachaca.svg"],
 	["-2","A plane flying over the Atlantic Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_white_wine.svg"],
 	["-2","A plane flying over the Atlantic Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],
 	["-2","A plane flying over the Atlantic Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_beer.svg"]
 ],
 [
-	["-1","The Azores","The Azores","Vinho Liquoroso","Saúde!","images/vinho_liq.svg"],
+	["-1","the Azores","The Azores","Vinho Liquoroso","Saúde!","images/vinho_liq.svg"],
 	["-1","Cabo Verde","Cabo Verde","Grogu","Ching Ching!","images/grogu.svg"],
 	["-1","A plane flying over the Atlantic Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_white_wine.svg"],
 	["-1","A plane flying over the Atlantic Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],
@@ -80,10 +81,10 @@ var allCountries = [
 [
 	["1","Paris, France","Paris","Champagne","Santé!","images/champagne.svg"],
 	["1","Caen, France","Caen","Cider","Santé!","images/cider.svg"],
-	["1","Split, Croatia","Split","Rakja","Živjeli!","images/rakja.svg"],
+	["1","Split, Croatia","Split","Rakja","Zivjeli!","images/rakja.svg"],
 	["1","Oslo, Norway","Oslo","Akevitt","Skål!","images/akevitt.svg"],
 	["1","Stockholm, Sweden","Stockholm","Glögg","Skål!","images/glogg.svg"],
-	["1","Brussels, Belgium", "Brussels", "Kriek Beer", "Santé!", "images/kriek.svg"],
+	["1","Brussels, Belgium", "Brussels", "Kriek", "Santé!", "images/kriek.svg"],
 	["1","Verona, Italy", "Verona", "Grappa", "Salute!", "images/grappa.svg"],
 	["1", "Salzburg, Austria", "Salzburg", "Schnapps", "Zum Wohl!", "images/schnapps.svg" ],
 	["1", "Munich, Germany", "Munich", "Pilsner", "Prost!", "images/german_beer.svg"],
@@ -95,51 +96,53 @@ var allCountries = [
 [
 	["2","Cairo, Egypt","Cairo","Bouza","!في صحتكم","images/bouza.svg"],
 	["2","Tel Aviv, Israel","Tel Aviv","Arak","!הידד","images/arak.svg"],
-	["2","Mykonos, Greece","Mykonos","Ouzo","Στην υγειά σου!","images/ouzo.svg"],
-	["2","Riga, Latvia","Riga","Balsam","Priekā!","images/balsam.svg"],
-	["2","Cape Town, South Africa","Cape Town","Amarula!","Gesondheid","images/amarula.svg"],
-	["2","Kigali, Rwanda","Kigali","Urwagwa","Kubuzima bwacu!","images/urwaga.svg"]
+	["2","Mykonos, Greece","Mykonos","Ouzo","Εvíva!","images/ouzo.svg"],
+	["2","Riga, Latvia","Riga","Balsam","Prieka!","images/balsam.svg"],
+	["2","Cape Town, South Africa","Cape Town","Amarula","Gesondheid!","images/amarula.svg"],
+	["2","Kigali, Rwanda","Kigali","Urwagwa","Kubuzima Bwacu!","images/urwaga.svg"]
 ],
 [
-	["3","Kampala, Uganda","Kampala","Waragi","Maisha marefu!","images/waragi.svg"],
-	["3","St. Petersburg, Russia","St. Petersburg","Vodka","Будем здоровы!","images/vodka.svg"],
-	["3","Port Louis, Mauritius","Port Louis","Ti Rhum","Sante!","images/ti_rhum.svg"],
-	["3","Minsk, Belarus","Minsk","Krambambula","За здароў'е!","images/krambambula.svg"]
-	["3","Tehran, Iran","Tehran","Aragh","Salâmati!","images/aragh.svg"],
+	["3","Kampala, Uganda","Kampala","Waragi","Maisha Marefu!","images/waragi.svg"],
+	["3","St. Petersburg, Russia","St. Petersburg","Vodka","Ура!","images/vodka.svg"],
+	["3","Mauritius","Mauritius","Ti Rhum","Santé!","images/ti_rhum.svg"],
+	["3","Minsk, Belarus","Minsk","Krambambula","Yра!","images/krambambula.svg"],
+	["3","Tehran, Iran","Tehran","Aragh","Salâmati!","images/aragh.svg"]
 ],
 [
 	["4","Nairobi, Kenya","Nairobi","Dawa","Vifijo!","images/dawa.svg"],
-	["4","Yereven, Armenia","Yerevan","Oghi","Կէնաձդ!","images/oghi.svg"]
-	["4","Tblisi, Georgia","Tblisi","Chacha","გაგიმარჯოთ!","images/chacha.svg"]
+	["4","Yereven, Armenia","Yerevan","Oghi","Կէնաձդ!","images/oghi.svg"],
+	["4","Tblisi, Georgia","Tblisi","Chacha","Gaumarjos!","images/chacha.svg"]
 ],
 [
-	["5","Yekaterinburg, Russia","Yekaterinburg","Vodka","Будем здоровы!","images/vodka.svg"],
-	["5","Goa, India","Goa","Feni","आयुरारोग्य लाभो!","images/feni.svg"],
-	["5","Kathmandu, Nepal","Kathmandu","Chhaang","शुभ कामना!","images/chhaang.svg"]
+	["5","Yekaterinburg, Russia","Yekaterinburg","Vodka","Ура!","images/vodka.svg"],
+	["5","Goa, India","Goa","Feni","शुभमस्तु!","images/feni.svg"],
+	["5","Kathmandu, Nepal","Kathmandu","Chhaang","चियर्स!","images/chhaang.svg"]
 
 ],
 [
-	["6","Almaty, Kazakhstan","Almaty","Kumis","Денсаулығыңыз үшін!","images/kumis.svg"],
-	["6","Siberia","Siberia","Vodka","Будем здоровы!","images/vodka.svg"],
+	["6","Almaty, Kazakhstan","Almaty","Kumis","Ура!","images/kumis.svg"],
+	["6","Siberia","Siberia","Vodka","Ура!","images/vodka.svg"],
 	["6","A plane flying over the Indian Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_white_wine.svg"],
 	["6","A plane flying over the Indian Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],
 	["6","A plane flying over the Indian Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_beer.svg"]
 ],
 [
-	["7","Hanoi, Vietnam","Hanoi","Snake Wine","Một hai ba, yo!","images/snake_wine.svg"],
-	["7","Jakarta, Indonesia","Jakarta","Arrack","Mari Bersulang!","images/snake_wine.svg"],
+	["7","Hanoi, Vietnam","Hanoi","Snake Wine","Vô!","images/snake_wine.svg"],
+	["7","Jakarta, Indonesia","Jakarta","Arrack","Tepuk Tangan!","images/snake_wine.svg"],
 	["7","Bangkok, Thailand","Bangkok","Mekhong","ไชโย!","images/mekhong.svg"]
 ],
 [
 	["8","Shanghai, China","Shanghai","Baijiu","干杯!","images/baijiu.svg"],
 	["8","Singapore","Singapore","Singapore Sling","Sorakan!","images/sing_sling.svg"],
-	["8","Kuala Lumpur, Malaysia", "Kuala Lumpur","Tuak","Sihat Selalu!","images/tuak.svg"],
+	["8","Kuala Lumpur, Malaysia", "Kuala Lumpur","Tuak","Sorakan!","images/tuak.svg"],
 	["8","Manila, Phillipines","Manila","Lambanóg","Tagay!","images/lambanog.svg"]
 ],
 [
 	["9","Osaka, Japan","Osaka","Sake","乾杯!","images/sake.svg"],
 	["9","Tokyo, Japan","Tokyo","Shochu","乾杯!","images/shochu.svg"],
-	["9","Seoul, South Korea","Seoul","Soju","건배!","images/soju.svg"]
+	["9","Seoul, South Korea","Seoul","Soju","건배!","images/soju.svg"],
+	["9","Ulaanbatar, Mongolia","Ulaanbatar","Arkhi","ИHЭЭX!","images/kumis.svg"]
+
 ],
 [
 	["10","Melbourne, Australia!","Melbourne","Shiraz","Cheers!","images/shiraz.svg"],
@@ -157,6 +160,6 @@ var allCountries = [
 	["12","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_red_wine.svg"],
 	["12","A plane flying over the Pacific Ocean","A plane","whatever you want from the bar","Cheers!","images/plane_beer.svg"],
 	["12","Auckland, New Zealand!","Auckland","Sauvignon Blanc","Cheers!","images/sauv_blanc.svg"],
-	["12","Fiji","Fiji","Yaqona","Bula","images/yaqona.svg"]
+	["12","Fiji","Fiji","Yaqona","Bula!","images/yaqona.svg"]
 ]
 ];
