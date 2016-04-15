@@ -96,7 +96,7 @@ var allCountries = [
 [
 	["2","Cairo, Egypt","Cairo","Bouza","!في صحتكم","images/bouza.svg"],
 	["2","Tel Aviv, Israel","Tel Aviv","Arak","!הידד","images/arak.svg"],
-	["2","Mykonos, Greece","Mykonos","Ouzo","Εvíva!","images/ouzo.svg"],
+	["2","Mykonos, Greece","Mykonos","Ouzo","Evíva!","images/ouzo.svg"],
 	["2","Riga, Latvia","Riga","Balsam","Prieka!","images/balsam.svg"],
 	["2","Cape Town, South Africa","Cape Town","Amarula","Gesondheid!","images/amarula.svg"],
 	["2","Kigali, Rwanda","Kigali","Urwagwa","Kubuzima Bwacu!","images/urwaga.svg"]

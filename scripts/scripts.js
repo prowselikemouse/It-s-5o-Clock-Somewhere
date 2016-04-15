@@ -38,8 +38,9 @@ app.another_button = function() {
 	//PUT RESULTS ON PAGE
 	$('.cheers').html(app.displayArray[4]);
 	$('.location').html(app.displayArray[1]);
+	$('.locationlink').attr('href', 'http://www.wikipedia.org/wiki/' + app.displayArray[2])
 	$('.drink').html(app.displayArray[3]);
-	$('.drinklink').attr('href', "http://www.yummly.com/recipes?q=" + app.displayArray[3] + '&allowedCourse=course%5Ecourse-Beverages&allowedCourse=course%5Ecourse-Cocktails');
+	$('.drinklink').attr('href', 'http://www.yummly.com/recipes?q=' + app.displayArray[3] + '&allowedCourse=course%5Ecourse-Beverages&allowedCourse=course%5Ecourse-Cocktails');
 	$('.image').attr('src', app.displayArray[5]);
 	$('.image').attr('alt', app.displayArray[3]);
 	console.log(app.displayArray[3]);
